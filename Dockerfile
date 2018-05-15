@@ -1,8 +1,6 @@
-FROM alpine:3.6
+FROM alpine:latest
 
-ENV NATSS_VERSION v0.6.0
-
-MAINTAINER canhnt@gmail.com
+ENV NATSS_VERSION v0.9.2
 
 EXPOSE 4222 6222 8222
 
